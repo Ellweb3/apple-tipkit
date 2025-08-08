@@ -2,6 +2,8 @@
 
 Flutter plugin (iOS 17+) - wrapper over Apple TipKit.
 
+![Apple TipKit Demo](https://raw.githubusercontent.com/Ellweb3/apple-tipkit/main/images/demo.gif)
+
 - iOS Core: Swift + `import TipKit`
 - Method Channel: `apple_tipkit`
 - Methods:
@@ -23,6 +25,11 @@ dependencies:
 ```
 
 Minimum iOS: 17.0.
+
+### Screenshots
+
+<img src="https://raw.githubusercontent.com/Ellweb3/apple-tipkit/main/images/tip_example_1.png" width="300" alt="TipKit Example 1">
+<img src="https://raw.githubusercontent.com/Ellweb3/apple-tipkit/main/images/tip_example_2.png" width="300" alt="TipKit Example 2">
 
 ### Usage
 
