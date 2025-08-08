@@ -1,6 +1,6 @@
 name: apple_tipkit
 description: Flutter plugin (iOS 17+) - wrapper over Apple TipKit API via MethodChannel.
-version: 0.1.0
+version: 0.1.1
 homepage: https://pub.dev/packages/apple_tipkit
 repository: https://github.com/Ellweb3/apple-tipkit
 issue_tracker: https://github.com/Ellweb3/apple-tipkit/issues
