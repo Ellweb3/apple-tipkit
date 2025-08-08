@@ -1,0 +1,22 @@
+PODS:
+  - apple_tipkit (0.1.0):
+    - Flutter
+  - Flutter (1.0.0)
+
+DEPENDENCIES:
+  - apple_tipkit (from `.symlinks/plugins/apple_tipkit/ios`)
+  - Flutter (from `Flutter`)
+
+EXTERNAL SOURCES:
+  apple_tipkit:
+    :path: ".symlinks/plugins/apple_tipkit/ios"
+  Flutter:
+    :path: Flutter
+
+SPEC CHECKSUMS:
+  apple_tipkit: 30d7294c61af0750739232295587b7e2f5c2141e
+  Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+
+PODFILE CHECKSUM: 912e34f102da91123e38965ab4e5b3fb21e195f0
+
+COCOAPODS: 1.16.2

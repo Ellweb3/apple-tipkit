@@ -1,0 +1,23 @@
+name: apple_tipkit_example
+description: Пример использования плагина apple_tipkit
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.16.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  apple_tipkit:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+
