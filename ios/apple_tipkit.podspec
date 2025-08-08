@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'apple_tipkit'
   s.version          = '0.1.0'
-  s.summary          = 'Flutter обёртка над Apple TipKit (iOS 17+).'
+  s.summary          = 'Flutter wrapper over Apple TipKit (iOS 17+).'
   s.description      = <<-DESC
-  Плагин предоставляет базовые методы TipKit: initializeTips, displayTip, markTipAsShown, resetAllTips.
+  Plugin provides basic TipKit methods: initializeTips, displayTip, markTipAsShown, resetAllTips.
   DESC
   s.homepage         = 'https://pub.dev/packages/apple_tipkit'
   s.license          = { :file => '../LICENSE' }
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks       = 'UIKit', 'SwiftUI', 'TipKit'
   s.dependency 'Flutter'
 
-  # Поддержка симулятора и устройства (xcframework не требуется, используем системный TipKit)
+  # Simulator and device support (xcframework not required, using system TipKit)
   s.pod_target_xcconfig = {
     'DEFINES_MODULE' => 'YES',
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => ''

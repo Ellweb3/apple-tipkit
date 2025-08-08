@@ -1,5 +1,5 @@
 name: apple_tipkit
-description: Flutter-плагин (iOS 17+) — обёртка над Apple TipKit API через MethodChannel.
+description: Flutter plugin (iOS 17+) - wrapper over Apple TipKit API via MethodChannel.
 version: 0.1.0
 homepage: https://pub.dev/packages/apple_tipkit
 repository: https://github.com/your-org/apple_tipkit
@@ -17,8 +17,6 @@ flutter:
 
 platforms:
   ios:
-    # Документируем минимальную версию; фактически она будет принудительно задана в podspec
-    minimum_os: 17.0
 
 dependencies:
   flutter:

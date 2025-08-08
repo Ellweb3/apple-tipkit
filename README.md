@@ -1,10 +1,10 @@
 ### apple_tipkit
 
-Flutter-плагин (iOS 17+) — обёртка над Apple TipKit.
+Flutter plugin (iOS 17+) - wrapper over Apple TipKit.
 
-- Ядро iOS: Swift + `import TipKit`
-- Метод-канал: `apple_tipkit`
-- Методы:
+- iOS Core: Swift + `import TipKit`
+- Method Channel: `apple_tipkit`
+- Methods:
   - `initializeTips()`
   - `displayTip(String tipId, {String? title, String? message})`
   - `displayTipAt(String tipId, {double? x, double? y, String arrow = 'any', String? title, String? message})`
@@ -13,18 +13,18 @@ Flutter-плагин (iOS 17+) — обёртка над Apple TipKit.
   - `resetAllTips()`
   - `closeTip()`
 
-### Установка
+### Installation
 
-Добавьте в `pubspec.yaml` вашего приложения:
+Add to your app's `pubspec.yaml`:
 
 ```yaml
 dependencies:
   apple_tipkit: ^0.1.0
 ```
 
-Минимальная iOS: 17.0.
+Minimum iOS: 17.0.
 
-### Использование
+### Usage
 
 ```dart
 import 'package:apple_tipkit/apple_tipkit.dart';
@@ -43,15 +43,13 @@ await AppleTipkit.resetAllTips();
 await AppleTipkit.closeTip();
 ```
 
-- На не‑iOS платформах методы бросают `UnimplementedError`.
-- `displayTip` показывает системный TipKit-поповер с базовым содержимым.
+- On non-iOS platforms methods throw `UnimplementedError`.
+- `displayTip` shows system TipKit popover with basic content.
 
-### Ограничения
+### Limitations
 
-TipKit не предоставляет глобального реестра по строковому `id`. Плагин создаёт простой `Tip` по `tipId` для управления datastore и тестового показа. Для продакшна рекомендуется собственная Tip-модель и размещение вью через SwiftUI/TipKit.
+TipKit doesn't provide global registry by string `id`. Plugin creates simple `Tip` by `tipId` for datastore management and test display. For production, recommend custom Tip model and view placement via SwiftUI/TipKit.
 
-### Лицензия
+### License
 
 MIT
-
-
